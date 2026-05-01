@@ -1,0 +1,60 @@
+let rivalsMains=[ 
+    "Magneto",
+    "Thor",
+    "Scarlet Witch", 
+    "Iron Man", 
+    "Moon Knight", 
+    "Black Widow",
+    "Punisher",
+    "Star Lord",
+    "Hela",
+    "Mister Fantastic",
+    "Jeff",
+    "Invisible Woman",
+    "Adam Warlock",
+    "Black Panther",
+    "Captain America",
+    "Cloak & Dagger",
+    "Doctor Strange",
+    "Groot",
+    "Hawkeye",
+    "Hulk",
+    "Iron Fist",
+    "Loki",
+    "Luna Snow",
+    "Magik",
+    "Mantis",
+    "Namor",
+    "Peni Parker",
+    "Psylocke",
+    "Rocket Raccoon",
+    "Spider-Man",
+    "Squirrel Girl",
+    "Storm",
+    "Venom",
+    "Winter Soldier",
+    "Wolverine",
+    "Human Torch",
+    "The Thing",
+    "Emma Frost",
+    "Ultron",
+    "Phoenix",
+    "Blade",
+    "Angela",
+    "Daredevil",
+    "Gambit",
+    "Rogue",
+    "Deadpool",
+    "Elsa Bloodstone",
+    "White Fox",
+    "Black Cat",
+]
+function pickMain(array) {
+    let randomIndex=Math.floor(Math.random()*array.length);
+    let randomName=array[randomIndex];
+    console.log(randomName)
+    document.getElementById("result").innerHTML = `Match Choice: <span style="color:darkred">${randomName}</span>`;
+}
+    
+    
+//pickMain(rivalsMains); 
