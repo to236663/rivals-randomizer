@@ -48,6 +48,8 @@ let rivalsMains=[
     "Elsa Bloodstone",
     "White Fox",
     "Black Cat",
+    "Devil Dinosaur",
+    "Cyclops",
 ]
 function pickMain(array) {
     let randomIndex=Math.floor(Math.random()*array.length);
